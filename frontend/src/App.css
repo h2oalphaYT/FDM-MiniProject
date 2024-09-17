@@ -1,0 +1,46 @@
+/* App.css */
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 200px; /* Adjust this to match the width of your sidebar */
+  padding: 20px;
+}
+
+.header {
+  background-color: #282c34;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list li {
+  margin: 0 15px;
+}
+
+.nav-list li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav-list li a:hover {
+  text-decoration: underline;
+}
+
+main {
+  padding: 20px;
+}
+
+
